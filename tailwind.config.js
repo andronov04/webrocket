@@ -13,9 +13,9 @@ module.exports = {
   darkMode: 'class',
   theme: {
     fontFamily: {
-      sans: ['Ubuntu', 'sans-serif'],
-      'display': ['Ubuntu'],
-      'body': ['Ubuntu'],
+      sans: ['Mohave', 'sans-serif'],
+      'display': ['Mohave'],
+      'body': ['Mohave'],
     },
     fontSize: {
       'point': '.4rem',
@@ -67,6 +67,7 @@ module.exports = {
         'color60': '#606060',
         'colorEA': '#EAEAEA',
         'colorCC': '#CCCCCC',
+        'colorL': '#00D1FF',
         'darker': '#888',
         'blue': '#3476DF',
       },

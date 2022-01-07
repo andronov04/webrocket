@@ -1,6 +1,8 @@
 import Head from 'next/head';
 import Page from '../components/Page';
 import React from 'react';
+import Launches from '../components/Launches/Launches';
+import FAQ from '../components/FAQ/FAQ';
 
 const Home = () => {
   return (
@@ -25,15 +27,9 @@ const Home = () => {
         </p>
       </div>
 
-      <div id={'launches'} className={'p-10 mt-56 flex lg:flex-row flex-col min-h-screen'}>
-        <div className={'h-44 w-full '}/>
-        Launches
-      </div>
+      <Launches />
 
-      <div id={'faq'} className={'p-10 flex lg:flex-row flex-col min-h-screen'}>
-        <div className={'h-44 w-full '}/>
-        FAQ
-      </div>
+      <FAQ />
 
     </Page>
   );
