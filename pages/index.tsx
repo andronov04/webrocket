@@ -16,7 +16,7 @@ Each Rocket has a unique set of traits and unlocks varying, unique levels of acc
         <meta property="og:description" content="Cyber Rocket Corp is a collection of 10,000 generated Rocket NFTs on the Ethereum blockchain.
 Each Rocket has a unique set of traits and unlocks varying, unique levels of access and perks for its owner." />
         <meta property="og:image" content="" />
-        <link rel="icon" href="" />
+        <link rel="icon" href="https://webrocket.vercel.app/favicon.ico" />
       </Head>
 
       <Main />

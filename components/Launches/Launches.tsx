@@ -42,10 +42,10 @@ const Launches = () => {
           </h1>
           <div className={'mt-4 md:text-base text-sm'}>
             {l.desc.split('\n').map(text =>
-              <>
+              <i key={text}>
                 {text}
                 <br />
-              </>
+              </i>
             )}
           </div>
         </div>
