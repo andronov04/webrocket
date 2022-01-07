@@ -16,7 +16,7 @@ const Home = () => {
         <link rel="icon" href="" />
       </Head>
 
-      <div id={'main'} className={'flex p-10 lg:flex-row flex-col min-h-screen'}>
+      <div id={'main'} className={'flex p-10 flex-col min-h-screen'}>
         <div className={'h-44 w-full '}/>
         <p className={'max-w-md md:text-xl text-md'}>
           Cyber Rocket Corp is a collection of 10,000 randomly generated Penguin NFTs on the Ethereum blockchain.<br /><br />

@@ -4,7 +4,7 @@ import React from 'react';
 const Launches = () => {
 
   return (
-    <div id={'launches'} className={'p-10 mt-56 flex lg:flex-row flex-col min-h-screen'}>
+    <div id={'launches'} className={'p-10 mt-56 flex flex-col min-h-screen'}>
       <div className={'h-44 w-full '}/>
 
       <div>

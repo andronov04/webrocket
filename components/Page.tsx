@@ -11,7 +11,7 @@ export default function Page({ children }) {
       <Menu />
       <Header/>
 
-      <div className={'max-w-screen-xl flex flex-col  w-full h-full'}>
+      <div className={'flex flex-col  w-full h-full'}>
 
         <main className={'flex-grow w-full h-auto'}>
           {children}
