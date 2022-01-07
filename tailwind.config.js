@@ -68,6 +68,7 @@ module.exports = {
         'colorEA': '#EAEAEA',
         'colorCC': '#CCCCCC',
         'colorL': '#00D1FF',
+        'colorG': '#B6FF59',
         'darker': '#888',
         'blue': '#3476DF',
       },

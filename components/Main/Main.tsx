@@ -7,7 +7,7 @@ const Main = () => {
   return (
     <div id={'main'} className={'relative flex md:p-10 p-4 flex-col min-h-screen'}>
       <div className={'absolute z-10'}>
-        <div className={'h-44 w-full '}/>
+        <div className={'h-32 w-full '}/>
         <div>
           <h1 className={'text-4xl'}>Ad Astra! 🌠 </h1>
           <p className={'max-w-md md:text-xl text-md'}>

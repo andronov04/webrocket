@@ -5,7 +5,7 @@ const FAQ = () => {
 
   return (
     <div id={'faq'} className={'md:p-10 p-4 flex flex-col min-h-screen'}>
-      <div className={'h-44 w-full '}/>
+      <div className={'h-32 w-full '}/>
       FAQ
     </div>
   );

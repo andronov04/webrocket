@@ -28,7 +28,7 @@ const Launches = () => {
 
   return (
     <div id={'launches'} className={'md:p-10 p-4 mt-56 gap-y-6  flex flex-col min-h-screen'}>
-      <div className={'h-44 w-full'}/>
+      <div className={'h-32 w-full'}/>
 
       {launches.map(l =>
         <div key={l.title}>
