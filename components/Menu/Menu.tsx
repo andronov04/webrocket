@@ -7,7 +7,7 @@ const Menu = () => {
   return (
     <div style={{
       marginTop: '-50px',
-    }} className={'fixed z-10 top-1/2 right-10 w-16 '}>
+    }} className={'fixed z-10 top-1/2 md:right-10 right-4 w-16 '}>
       <nav>
         <ul className={'flex flex-col gap-y-4 md:text-3xl text-xl items-end justify-center lg:gap-x-5 gap-x-2'}>
           <li className={'cursor-pointer hover:opacity-80'}>
