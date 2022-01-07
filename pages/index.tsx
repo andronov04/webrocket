@@ -7,8 +7,8 @@ const Home = () => {
   return (
     <Page>
       <Head>
-        <title>Rocket</title>
-        <meta property="og:title" content="Rocket"  />
+        <title>Cyber Rocket Corp</title>
+        <meta property="og:title" content="Cyber Rocket Corp"  />
         <meta name="description" content="" />
         <meta property="og:description" content="" />
         <meta property="og:image" content="" />
