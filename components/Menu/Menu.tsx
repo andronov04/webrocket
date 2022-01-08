@@ -49,7 +49,7 @@ const Menu = () => {
           <li className={'cursor-pointer hover:opacity-80'}>
             <Link href={'/#launches'}>
               <a href={'/#launches'} className={`flex ${hash === 'launches' ? 'text-colorL': ''} items-center gap-x-2`}>
-                <div>Launches</div>
+                <div>Roadmap</div>
                 <i className={`${hash === 'launches' ? 'block': 'invisible'}`}>
                   <svg width="14" height="16" viewBox="0 0 14 16" fill="none" xmlns="http://www.w3.org/2000/svg">
                     <path d="M1.21554 8.69459C0.678088 8.38748 0.678089 7.61252 1.21554 7.30541L12.8031 0.683949C13.3364 0.379192 14 0.764286 14 1.37854L14 14.6215C14 15.2357 13.3364 15.6208 12.8031 15.3161L1.21554 8.69459Z" fill="#00D1FF"/>

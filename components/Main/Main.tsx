@@ -8,14 +8,16 @@ const Main = () => {
     <div id={'main'} className={'relative flex md:p-10 p-4 flex-col min-h-screen'}>
       <div className={'absolute z-10'}>
         <div className={'h-32 w-full '}/>
-        <div>
+        <div className={'max-w-md md:text-xl text-md'}>
           <h1 className={'text-4xl'}>Ad Astra! 🌠 </h1>
-          <p className={'max-w-md md:text-xl text-md'}>
-            Cyber Rocket Corp is a collection of <b>10,000</b> generated <b>Rocket NFTs</b> on the Ethereum blockchain.
-            <br /><br />
-            Each Rocket has a unique set of traits and unlocks varying, unique levels of access and perks for its owner.
-            {/*<br /><br />*/}
-            {/*Each Rocket has a 3D version.You will be able to run it in the AR*.*/}
+          <p className={'my-8'}>
+            Hello future crew member,
+          </p>
+          <p className={''}>
+            This is where your journey into the spaceverse begins. Become part of NFTs Cyber Rocket Corp now. At the beginning of the path you have to choose a rocket. We have created a unique rocket especially for you.
+          </p>
+          <p className={'mt-8'}>
+            ---<br />Have a good flight! Your CRC.
           </p>
         </div>
       </div>
