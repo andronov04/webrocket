@@ -55,10 +55,12 @@ module.exports = {
       width: {
         'w28': '28px',
         'w24': '24px',
+        'w130': '130px',
       },
       height: {
         'h28': '28px',
         'h24': '24px',
+        'h130': '130px',
       },
       colors: {
         'light': '#e8e8e8',
@@ -72,6 +74,7 @@ module.exports = {
         'colorS': '#F67E0E',
         'colorF': '#FF0000',
         'darker': '#888',
+        'colorB': 'rgba(255, 255, 255, 0.3)',
         'blue': '#3476DF',
       },
       fontSize: {

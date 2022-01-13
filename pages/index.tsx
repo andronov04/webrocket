@@ -1,9 +1,11 @@
 import Head from 'next/head';
 import Page from '../components/Page';
 import React from 'react';
-import Launches from '../components/Launches/Launches';
-import FAQ from '../components/FAQ/FAQ';
-import Main from '../components/Main/Main';
+import Landing from '@/Landing';
+import Rocket from '@/Rocket/Rocket';
+// import Launches from '../components/Launches/Launches';
+// import FAQ from '../components/FAQ/FAQ';
+// import Main from '../components/Main/Main';
 
 const Home = () => {
   return (
@@ -19,11 +21,17 @@ Each Rocket has a unique set of traits and unlocks varying, unique levels of acc
         <link rel="icon" href="https://webrocket.vercel.app/favicon.ico" />
       </Head>
 
-      <Main />
+      {/*<Main />*/}
 
-      <Launches />
+      {/*<Launches />*/}
 
-      <FAQ />
+      {/*<FAQ />*/}
+
+      <div className={'absolute overflow-scroll flex justify-center items-center  z-10 w-full h-full'}>
+        <Landing />
+      </div>
+
+      <Rocket />
 
     </Page>
   );
