@@ -4,7 +4,7 @@ import Link from 'next/link';
 const Landing = () => {
 
   return (
-    <div className={'p-24 h-full gap-12 flex flex-wrap md:grid grid-flow-row-dense md:grid-cols-5 md:grid-rows-3 grid-cols-none grid-rows-none'}>
+    <div className={'md:p-24 p-4 h-full md:gap-12 gap-4 flex flex-wrap md:grid grid-flow-row-dense md:grid-cols-5 md:grid-rows-3 grid-cols-none grid-rows-none'}>
       <div className="col-span-2 h-h130 flex flex-col gap-y-3 justify-start items-start">
         <div>
           <Link href={'/'}>
