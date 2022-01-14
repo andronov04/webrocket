@@ -78,9 +78,14 @@ const Landing = () => {
       </div>
       <div>
         <div className={'rounded-md bg-colorBG border-2 border-colorB relative w-w130 h-h130'} >
-          <div className={'p-2 flex flex-col justify-between items-center h-full'}>
-            <h2>Rockets</h2>
-            <h2>Today</h2>
+          <div
+            style={{
+              backgroundImage: 'url("https://cyberrocketcorp.com/rocket1.png")',
+              backgroundSize: 'cover',
+            }}
+            className={'p-2 flex flex-col justify-between items-center h-full'}>
+            <h2 style={{ textShadow: '2px 2px 3px rgb(255 255 255)' }}>Rockets</h2>
+            <h2 style={{ textShadow: '2px 2px 3px rgb(255 255 255)' }}>Today</h2>
           </div>
         </div>
       </div>
