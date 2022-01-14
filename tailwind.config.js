@@ -75,6 +75,7 @@ module.exports = {
         'colorF': '#FF0000',
         'darker': '#888',
         'colorB': 'rgba(255, 255, 255, 0.3)',
+        'colorBG': 'rgba(255, 255, 255, 0.1)',
         'blue': '#3476DF',
       },
       fontSize: {
