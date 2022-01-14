@@ -83,7 +83,10 @@ const Landing = () => {
               backgroundImage: 'url("https://cyberrocketcorp.com/rocket1.png")',
               backgroundSize: 'cover',
             }}
-            className={'p-2 flex flex-col justify-between items-center h-full'}>
+            onClick={() => {
+              window.open('https://www.fxhash.xyz/explore');
+            }}
+            className={'p-2 flex cursor-pointer hover:opacity-70 flex-col justify-between items-center h-full'}>
             <h2 style={{ textShadow: '2px 2px 3px rgb(255 255 255)' }}>Rockets</h2>
             <h2 style={{ textShadow: '2px 2px 3px rgb(255 255 255)' }}>Today</h2>
           </div>
