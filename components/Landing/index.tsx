@@ -84,19 +84,27 @@ const Landing = () => {
               backgroundSize: 'cover',
             }}
             onClick={() => {
-              window.open('https://www.fxhash.xyz/explore');
+              window.open('https://www.fxhash.xyz/generative/7023');
             }}
             className={'p-2 flex cursor-pointer hover:opacity-70 flex-col justify-between items-center h-full'}>
             <h2 style={{ textShadow: '2px 2px 3px rgb(255 255 255)' }}>Rockets</h2>
-            <h2 style={{ textShadow: '2px 2px 3px rgb(255 255 255)' }}>Today</h2>
+            <h2 style={{ textShadow: '2px 2px 3px rgb(255 255 255)' }}>14/256</h2>
           </div>
         </div>
       </div>
       <div>
         <div className={'rounded-md bg-colorBG border-2 border-colorB relative w-w130 h-h130'} >
-          <div className={'p-2 flex flex-col justify-between items-center h-full'}>
-            <h2>Patches</h2>
-            <h2>Coming soon</h2>
+          <div
+            style={{
+              backgroundImage: 'url("https://cyberrocketcorp.com/g1.png")',
+              backgroundSize: 'cover',
+            }}
+            onClick={() => {
+              window.open('https://www.fxhash.xyz/explore');
+            }}
+            className={'p-2 flex cursor-pointer hover:opacity-70 flex-col justify-between items-center h-full'}>
+            <h2 style={{ textShadow: '2px 2px 3px rgb(255 255 255)' }}>Echoes of Space</h2>
+            <h2 style={{ textShadow: '2px 2px 3px rgb(255 255 255)' }}>Today</h2>
           </div>
         </div>
       </div>
