@@ -100,7 +100,7 @@ const Landing = () => {
               backgroundSize: 'cover',
             }}
             onClick={() => {
-              window.open('https://www.fxhash.xyz/explore');
+              window.open('https://www.fxhash.xyz/generative/slug/echoes-of-space');
             }}
             className={'p-2 flex cursor-pointer hover:opacity-70 flex-col justify-between items-center h-full'}>
             <h2 style={{ textShadow: '2px 2px 3px rgb(255 255 255)' }}>Echoes of Space</h2>
